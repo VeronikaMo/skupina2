@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -16,7 +17,67 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include=".gitignore" />
-    <Compile Include="index.php" />
+    <Compile Include="bat\MailHandler-sub.php" />
+    <Compile Include="bat\MailHandler.php" />
+    <Compile Include="js\PIE.php" />
     <Compile Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bat\" />
+    <Folder Include="css\" />
+    <Folder Include="images\" />
+    <Folder Include="js\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\camera.css" />
+    <Content Include="css\form.css" />
+    <Content Include="css\grid.css" />
+    <Content Include="css\ie.css" />
+    <Content Include="css\reset.css" />
+    <Content Include="css\style.css" />
+    <Content Include="css\superfish.css" />
+    <Content Include="css\touchTouch.css" />
+    <Content Include="images\box1_img1.png" />
+    <Content Include="images\box1_img2.png" />
+    <Content Include="images\box1_img3.png" />
+    <Content Include="images\box1_img4.png" />
+    <Content Include="images\box_img1.jpg" />
+    <Content Include="images\box_img2.jpg" />
+    <Content Include="images\box_img3.jpg" />
+    <Content Include="images\box_img4.jpg" />
+    <Content Include="images\camera-loader.gif" />
+    <Content Include="images\favicon.ico" />
+    <Content Include="images\footer_logo.png" />
+    <Content Include="images\link_marker.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\logo1.jpg" />
+    <Content Include="images\logo2.jpg" />
+    <Content Include="images\logo3.jpg" />
+    <Content Include="images\logo4.jpg" />
+    <Content Include="images\logo5.jpg" />
+    <Content Include="images\logo6.jpg" />
+    <Content Include="images\logo6.png" />
+    <Content Include="images\logo7.jpg" />
+    <Content Include="images\logo8.jpg" />
+    <Content Include="images\pagination.png" />
+    <Content Include="images\soc1.png" />
+    <Content Include="images\socials.png" />
+    <Content Include="images\spacer.gif" />
+    <Content Include="images\totop.png" />
+    <Content Include="index.html" />
+    <Content Include="js\camera.js" />
+    <Content Include="js\forms.js" />
+    <Content Include="js\html5shiv.js" />
+    <Content Include="js\jquery-migrate-1.1.1.js" />
+    <Content Include="js\jquery.color.js" />
+    <Content Include="js\jquery.easing.1.3.js" />
+    <Content Include="js\jquery.equalheights.js" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\jquery.mobile.customized.min.js" />
+    <Content Include="js\jquery.ui.totop.js" />
+    <Content Include="js\PIE.htc" />
+    <Content Include="js\superfish.js" />
+    <Content Include="js\tms-0.4.1.js" />
+    <Content Include="js\touchTouch.jquery.js" />
   </ItemGroup>
 </Project>
