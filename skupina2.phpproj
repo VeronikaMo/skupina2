@@ -21,6 +21,7 @@
     <Compile Include="bat\MailHandler.php" />
     <Compile Include="js\PIE.php" />
     <Compile Include="README.md" />
+    <Compile Include="Script1.php" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bat\" />
