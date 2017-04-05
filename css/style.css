@@ -613,4 +613,5 @@ footer a:hover {
 }
 #progres table tr td{
 	border:2px solid rgba(231, 76, 60,.8);
+	margin-right:30px !important;
 }
